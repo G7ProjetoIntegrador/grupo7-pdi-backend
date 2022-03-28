@@ -1,0 +1,27 @@
+{
+  "name": "projetodh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G7ProjetoIntegrador/grupo7-pdi-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/G7ProjetoIntegrador/grupo7-pdi-backend/issues"
+  },
+  "homepage": "https://github.com/G7ProjetoIntegrador/grupo7-pdi-backend#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "g": "^2.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
