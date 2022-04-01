@@ -1,0 +1,66 @@
+.search-mobile{
+    background-color: #3193c1;
+    padding: 5px;
+    display: none;
+}
+
+#pedidos,#promocoes,#servicos,#login,#cadastro {display: inline-flex}
+
+#pedidos::after{
+    content: "shopping_basket";
+    font-family: 'Material Icons Round';
+    margin-left: 10px;
+    font-size: 22px;
+}
+
+#promocoes::after{
+    content: "savings";
+    font-family: 'Material Icons Round';
+    margin-left: 10px;
+    font-size: 22px;
+}
+#servicos::after{
+    content: "manage_accounts";
+    font-family: 'Material Icons Round';
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+#login::after{
+    content: "login";
+    font-family: 'Material Icons Round';
+    margin-left: 10px;
+    font-size: 24px;
+}
+
+
+@media only screen and (max-width: 768px){
+
+    #busca{
+        display: none;
+    }
+
+    .opcoes{
+        display: none;
+    }
+
+    .nav{
+        display: none;
+    }
+
+    .setores{
+        display: none;
+    }
+
+    .search1{
+        display: flex;
+    }
+
+    .search-mobile{
+        display: block;
+    }
+
+    #menu-mobile{
+        display: block;
+    }
+}
