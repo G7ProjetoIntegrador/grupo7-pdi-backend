@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>LifePet</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="imagens/logo-transparent.png" href="index.html" alt="logo">
+        <h1 id="titulo">LifePet PetShop</h1>
+        <div></div>
+        <input id="menu-mobile" type="button" value="shopping_cart" class="material-icons-round"/>
+        <input id="menu-mobile" type="button" value="menu" class="material-icons-round"/>
+        <div id='busca'>
+            <form action="/search" class="search" method="get">
+                <input id="txtbusca" name="q" type="text" value="" placeholder="O que seu pet precisa" />
+                <input id="btnBusca" type="submit" class="material-icons-round" value="search"/>
+            </form>
+            </div> 
+            <div class="opcoes">
+                <a id="pedidos" href="pedidos">Meus pedidos</a>  
+                <a id="promocoes" href="promoções">Promoções</a>  
+                <a id="servicos" href="serviços">Serviços</a>  
+            </div>
+            <nav class="nav">
+                <a id="login" href="login.html" title="login">Login</a>
+                <a id="cadastro" href="#" title="Crie sua conta">Crie sua conta</a>
+            </nav>
+    </header>
+    <div class="setores">
+        <a href="#">Cachorro</a>
+        <a href="#">Gato</a>
+        <a href="#">Outro Pet</a>
+        <a href="#">Marcas</a>
+        <a href="#">Novidades</a>
+    </div>
+    <div class="search-mobile">
+        <form action="/search" class="search1" method="get">
+            <input id="txtbusca" name="q" type="text" value="" placeholder="O que seu pet precisa ?" />
+            <input id="btnBusca" type="submit" class="material-icons-round" value="search"/>
+        </form>
+    </div>
+        <div id="linha-horizontal"></div>
+</body>
+</html>
